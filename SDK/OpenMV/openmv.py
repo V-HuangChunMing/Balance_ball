@@ -1,3 +1,33 @@
+Skip to content
+Search or jump to…
+
+Pulls
+Issues
+Marketplace
+Explore
+ 
+@V-HuangChunMing 
+Jason-xy
+/
+Balance_ball
+1
+11
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Balance_ball/SDK/OpenMV/openmv.py /
+@Jason-xy
+Jason-xy 更新PID和OV算法
+Latest commit 1e02e91 yesterday
+ History
+ 1 contributor
+84 lines (70 sloc)  2.22 KB
+  
 import sensor,image,time,lcd
 from pyb import UART
 import math
@@ -82,3 +112,18 @@ while(True):
     process_current_frame()
     print("FPS:", clock.fps())
     print("*****************************************")
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
+ Octotree
+ Login with GitHub
